@@ -5,14 +5,14 @@ package zabawki;
 public class Trojkat {
 
 	
-	int _a, _b, _c, _h;
+	int a, b, c, h;
 	
 	Trojkat(int a, int h ) {
-		_a = a;
-		_h = h;
+		this.a = a;
+		this.h = h;
 	}
 	
 	double pole () {
-		return _a * _h * 0.5;
+		return a * h * 0.5;
 	} 
 }
